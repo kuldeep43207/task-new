@@ -1,0 +1,42 @@
+.profile-cols{
+	text-align:center;
+	margin-bottom: 30px;
+	
+	.outer-cols {
+		position:relative;
+		
+		.profle-bg{
+			background-image:url(../images/dark.jpg);
+			background-position:center;
+			background-size:100%;
+			background-repeat:no-repeat;
+			height:100px;
+			
+		}
+		
+		.profile-info{
+				background: #284c79;
+				padding: 10px;
+				border-top: 1px solid #fff;
+			h4{
+				color:#fff;
+			}
+			
+			p{
+				color:#fff;
+			}
+		}
+		
+		.profile-pic{
+			position: absolute;
+			width: 90px;
+			border: 2px solid #fff;
+			border-radius: 50px;
+			top: 5px;
+			left: 0;
+			right: 0px;
+			margin: auto
+		}
+		
+	}
+}

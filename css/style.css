@@ -1,0 +1,63 @@
+.inner-cols img {
+  width: 80px; }
+.inner-cols h4 {
+  margin: 0px; }
+.inner-cols p {
+  margin: 0px 0px 30px 0px; }
+
+.testimonial-cols h3 {
+  text-align: center;
+  text-transform: capitalize;
+  color: #96a0a6;
+  margin: 30px 0px; }
+
+.inner-testimonial-cols {
+  text-align: center;
+  padding: 15px; }
+  .inner-testimonial-cols img {
+    width: 50px; }
+  .inner-testimonial-cols h4 {
+    color: #96a0a6;
+    margin-bottom: 0; }
+  .inner-testimonial-cols p {
+    color: #96a0a6;
+    font-style: italic;
+    margin-bottom: 0px;
+    margin-top: 10px; }
+  .inner-testimonial-cols:hover {
+    background: #96a0a6; }
+    .inner-testimonial-cols:hover h4 {
+      color: #fff; }
+    .inner-testimonial-cols:hover p {
+      color: #fff; }
+
+.profile-cols {
+  text-align: center;
+  margin-bottom: 30px; }
+  .profile-cols .outer-cols {
+    position: relative; }
+    .profile-cols .outer-cols .profle-bg {
+      background-image: url(../images/dark.jpg);
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 100px; }
+    .profile-cols .outer-cols .profile-info {
+      background: #284c79;
+      padding: 10px;
+      border-top: 1px solid #fff; }
+      .profile-cols .outer-cols .profile-info h4 {
+        color: #fff; }
+      .profile-cols .outer-cols .profile-info p {
+        color: #fff; }
+    .profile-cols .outer-cols .profile-pic {
+      position: absolute;
+      width: 90px;
+      border: 2px solid #fff;
+      border-radius: 50px;
+      top: 5px;
+      left: 0;
+      right: 0px;
+      margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
